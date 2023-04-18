@@ -1,3 +1,9 @@
-export const App = () => {
-  return <div className="App">PizzaStack</div>;
-};
+import { CssBaseline } from '@mui/material';
+import { Admin } from 'react-admin';
+
+export const App = () => (
+  <>
+    <CssBaseline />
+    <Admin />
+  </>
+);
